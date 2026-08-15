@@ -1,0 +1,3 @@
+# Task Laundry Wallah / Laundry Mart
+Laundry Mart is a professional laundry and dry-cleaning service designed to make everyday laundry simple, convenient, and hassle-free. We provide reliable cleaning and garment-care solutions for individuals, families, and businesses.
+Our team is committed to delivering quality cleaning, careful handling, timely service, and customer satisfaction. From everyday clothes to delicate garments, we use modern cleaning techniques and attention to detail to help keep your clothes fresh, clean, and well-maintained.
