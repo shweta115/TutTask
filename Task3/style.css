@@ -1,0 +1,53 @@
+body{
+    background-color: #e7914f;
+}
+
+.head{
+    color: #00008b;
+}
+
+#bglime{
+    background-color: beige;
+}
+
+.head > span{
+    color: red;
+}
+
+p{
+    color: #ffffff;
+}
+
+#para{
+    color: #008000;
+}
+
+p span {
+    color: #000000;
+    font-size: 18px;
+}
+
+ul li{
+    color: #ffffff;
+
+}
+li {
+    color: black;
+}
+
+li:nth-child(2) {
+    color: #0000ff;
+}
+
+li:nth-child(3) {
+    color: #ff0000;
+}
+
+li:nth-child(odd) a {
+    background-color: #ffff00;
+}
+
+li:nth-child(even) a {
+    background-color: #800080;
+}
+
