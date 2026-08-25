@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 8vh;
+    margin-top: 25px;
+    width: 100vw;
+    display: inline;
+}
+.bar{
+    width:80vw;
+}
+.logo{
+    width:20vw;
+    margin-top: 25px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 3vh 3vh 10vh 3vh;  
+    font-size: 2.5vh;
+}
+
+ul > li{
+    display: inline;
+    padding: 0 20px 0 0;
+}
+
+ul > li > a{
+    text-decoration: none;
+}
+
+li > a:hover{
+    color: #000000;
+    font-weight: 600;
+}
+.logo img{
+  float: left;
+  width: 45px;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.username{
+    background-color: #EAF6FD;
+    height: 5vh;
+    color: #3299CF;
+    font-size: 2vh;
+    border: none;
+    border-radius: 1.2vh;
+    margin-right: 250px;
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+.container{
+   margin-top: 100px; 
+   text-align: justify;
+   width: 100%;
+   display: block;
+}
+.left{
+    float: left;
+    width: 50%;
+    margin-left: 250px;
+}
+
+.right{
+    position: absolute;
+    margin-left: 60%;
+}
+
+.left > p{
+    text-align: justify;
+    width: 50%;
+    color: #d1c8c8;
+    font-weight: 400;
+    line-height: 3vh;
+}
+
+.right > img{
+    height: 250px;
+}
+
+h1{
+    color: #585252;
+    font-weight: 700;
+    line-height: 5.5vh;
+}
+
+h2{   
+    color: #06A8FF;
+    font-weight: 800;
+    line-height: 5.5vh;
+}
+
+.book{
+    background: linear-gradient(to right, #06A8FF, #3BB8F0);
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 2vh;
+    padding: 20px 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
