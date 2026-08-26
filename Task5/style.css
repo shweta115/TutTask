@@ -111,3 +111,6 @@ h2{
     font-weight: 400;
     cursor: pointer;
 }
+.book:hover{
+    background: linear-gradient(to right, #023045, #2aaee7);
+}
