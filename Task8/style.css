@@ -120,7 +120,8 @@ h2{
     cursor: pointer;
 }
 .book:hover{
-    background: linear-gradient(to right, #023045, #2aaee7);
+    transform: rotate(-10deg) scalex(1.5);
+    transition: transform 0.3s ease-in;
 }
 
 
