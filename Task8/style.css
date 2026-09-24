@@ -121,7 +121,7 @@ h2{
 }
 .book:hover{
     transform: rotate(-10deg) scalex(1.5);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.6s ease-in;
 }
 
 
@@ -137,9 +137,15 @@ h2{
 }
 
 .right > img {
-    width: 30vw;
+    width: 20vw;
     object-fit: cover;
     align-self: center;
+    animation-name: orbit;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none; 
 }
 
 @media (min-width: 768px) and (max-width: 1033px){
@@ -296,4 +302,37 @@ h2{
         nav:has(#menu-toggle:checked) .bar {
             right: 0;
         }
+}
+
+@keyframes orbit {
+    0% , 100% {
+         transform: translate(0, -60px);
+    }
+    12.5% {
+        transform: translate(10px, -30px);
+    }
+    25% {
+        transform: translate(20px, 0);
+    }
+
+    37.5% {
+        transform: translate(10px, 30px);
+    }
+
+    50% {
+        transform: translate(0, 60px);
+    }
+
+    62.5% {
+        transform: translate(-10px, 30px);
+    }
+
+    75% {
+        transform: translate(-20px, 0);
+    }
+
+    87.5% {
+        transform: translate(-10px, -30px) scale(0.8,1.2);
+        transition: transform 0.5s ease-in-out;
+    }
 }
