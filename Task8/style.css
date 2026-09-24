@@ -141,8 +141,8 @@ h2{
     object-fit: cover;
     align-self: center;
     animation-name: orbit;
-    animation-duration: 2s;
-    animation-delay: 2s;
+    animation-duration: 1.5s;
+    /* animation-delay: 2s; */
     animation-timing-function: alternate;
     animation-iteration-count: infinite;
     animation-fill-mode: none; 
